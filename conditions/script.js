@@ -22,9 +22,11 @@ if(0 <= age && age < 18) {
 var temperature = Math.floor((Math.random() * 31));
 if( 0 <= temperature && temperature <= 10 ) {
   alert("Cool");
-} else if(11 <= temperature && temperature <= 20 ) {
+}
+if(11 <= temperature && temperature <= 20 ) {
   alert("Tepid");
-} else if(21 <= temperature && temperature <= 30 ) {
+}
+if(21 <= temperature && temperature <= 30 ) {
   alert("Warm");  
 }
 
