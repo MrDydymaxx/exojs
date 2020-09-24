@@ -80,7 +80,6 @@ for(var cloth in clothes) {
     clothes[cloth].tva = clothes[cloth].price*0.2;
 }
 console.log(clothes);
-var sizes = ['XS','S','M','L','XL','XXL'];
 
 /**
 * Exercice 8
